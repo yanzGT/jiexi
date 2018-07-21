@@ -15,4 +15,10 @@ client|客户ID|iiiLab分配给您的客户ID|不可空|996981887a27d721
 
 成功返回数据：
 
+![](https://raw.githubusercontent.com/iiiLab/video-api/master/img/common_succ.png)
+
+失败返回数据：
+
+![](https://raw.githubusercontent.com/iiiLab/video-api/master/img/common_fail.png)
+
 
