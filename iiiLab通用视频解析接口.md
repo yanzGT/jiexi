@@ -1,3 +1,5 @@
+**说明：** 此接口为通用解析接口，支持解析[iiiLab](http://douyin.iiilab.com/)所支持的所有平台视频。
+
 **接口地址：** http://service.iiilab.com/video/download
 
 HTTP请求方式：POST
