@@ -27,6 +27,7 @@ client|客户ID|iiiLab分配给您的客户ID|不可空|996981887a27d721
 
 * 当retCode为200时代表成功，非200代表失败，如果失败，retDesc为失败原因。
 * 如果解析成功，data为解析结果数据，其中video为视频地址，一定有；cover为视频封面地址，可能为空；text为视频标题，可能为空。
+  1. 如果是全民K歌的链接，返回结果里还有另外两个字段：videoType(音视频类型，两种可能值：audio, video)，songName(歌曲名称)
 * 如果请求失败，retCode为错误代码，retDesc为错误原因，retCode和retDesc是一对多关系，可能出现的错误原因：
 
 <table>
